@@ -1,0 +1,553 @@
+.border-gradient {
+  display: inline-flex;
+  border: double 15px transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(white, white), linear-gradient(to bottom, #FB2B52, #3EB13B);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  overflow: hidden;
+}
+
+.slot-machine {
+  text-align: center;
+  background: url('../../Assets/images/Slot-game.png') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.slotbalance,
+.slotbet {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 900 !important;
+  line-height: 29.18px;
+}
+
+.slotbet>input {
+  background: transparent;
+  width: 100%;
+  max-width: 89px;
+  border: none;
+  color: white;
+}
+
+.betBtn:hover {
+  width: 100%;
+  background-color: #349631;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.slot-message-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: block;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 800 !important;
+  text-shadow: 0 0 black;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.slot-message-container.show {
+  display: block;
+}
+
+.slot-reels {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  background: linear-gradient(0deg, #FDBE1B 0.77%, #BC8F1D 30.58%, #987C35 40.51%, #FFD055 60.39%, #FFD569 70.32%, #E2C97C 80.26%, #E1B646 90.2%, #FDBE1B 100.13%);
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  padding: 30px;
+  border-radius: 15px;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.slot-reel-bg {
+  box-shadow: 100px 0.65px 80px 0px #00000012;
+  background: linear-gradient(180deg, #3EB13B 2.42%, #906A08 99.11%);
+  border-radius: 20px 20px 0px 0px;
+  background-size: contain;
+  clip-path: polygon(0% 0%, 50% 0%, 100% 0%, 96% 50%, 100% 100%, 50% 100%, 0% 100%, 3% 50%);
+  padding: 0px 40px;
+}
+
+.slot-reel {
+  width: 104.59px;
+  height: 348.6px;
+  /* Match the height of the .reels container */
+  color: black;
+  margin: 0 10px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.cvc {
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(90deg, #D6D6D6 0%, #ECECEC 36%, #FAFAFB 57%, #FFFFFF 48%, #FFFFFF 40%, #F8F8F8 56%, #E7E7E7 80%, #CCCCCC 100%);
+  margin: 20px 0;
+}
+
+.slot-symbol {
+  width: 100%;
+  text-align: center;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+/* =============================================================================== */
+.slot-setbet-box {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fdd91b 0%, #974910 100%);
+  display: flex;
+  max-width: 608px;
+  flex-direction: column;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.slot-setbet-box>div:first-child {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #c3a715 0%, #ab7b00 100%);
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 4px 28px 12px 13px;
+}
+
+@media (max-width: 991px) {
+  .slot-setbet-box>div:first-child {
+    /* flex-wrap: wrap; */
+    padding-right: 20px;
+  }
+}
+
+.slot-setbet-box-inner-box {
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #161f2c;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin: auto 0;
+  padding: 0 19px 0 53px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .slot-setbet-box-inner-box {
+    padding-left: 20px;
+  }
+}
+
+.slot-bet-input {
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+  max-width: 150px;
+  margin: 0;
+}
+
+.slot-bet-container {
+  display: flex;
+  gap: 19px;
+}
+
+.slot-line {
+  background-color: #3eb13b;
+  width: 1px;
+  height: 65px;
+}
+
+.slot-line-bet {
+  font-family: FS Elliot Pro, -apple-system, Roboto, Helvetica,
+    sans-serif;
+  margin: auto 0;
+}
+
+.slot-line-2 {
+  background-color: #fdbe1b;
+  width: 1px;
+  height: 68px;
+  margin: auto 0;
+}
+
+.slot-img-2 {
+  aspect-ratio: 0.97;
+  object-fit: auto;
+  object-position: center;
+  width: 75px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  align-self: start;
+  cursor: pointer;
+}
+
+.roll-button {
+  background-color: #3eb13b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.roll-button.automatic {
+  background-color: #fdbe1b;
+}
+
+.roll-button:hover {
+  opacity: 0.9;
+}
+
+
+@media (max-width: 1250px) {
+  .gameBox1 {
+    width: 100%;
+    height: 100%;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 1045px) {
+  .slot-reel {
+    width: 71.59px;
+    height: 290.6px;
+  }
+
+  .slot-reels {
+    height: 340px;
+  }
+}
+
+/* ==============================================================================bet-box=========================================================== */
+.RocketGameConatiner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.gameBox1 {
+  width: 100%;
+  height: 100%;
+}
+
+.innerBox {
+  background: #161f2c;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+  gap: 10px;
+  height: 100%;
+}
+
+.form-control {
+  background: #0d131c !important;
+  color: #ffffff !important;
+}
+
+.betBtn {
+  width: 100%;
+  background-color: #3eb13b;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.rocketForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.topBtn {
+  background-color: #0d131c;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SelctedBtn {
+  color: #ffffff;
+
+  padding: 0.5rem 1rem !important;
+  border-radius: 10px;
+  width: 120px;
+}
+
+.colorChng {
+  background-color: #3eb13b !important;
+}
+
+.slctOptn {
+  background-color: #0d131c;
+  border-radius: 10px;
+  padding: 0.5rem 1.5rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+}
+
+.yellowBg {
+  background-color: #fdbe1b;
+  color: black;
+}
+
+@media (max-width: 1250px) {
+  .gameBox1 {
+    width: 100%;
+    height: 100%;
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .gameBox1 {
+    max-width: 100% !important;
+  }
+
+  .innerBox {
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width:1045px) {
+  .RocketGameConatiner {
+    flex-wrap: wrap;
+
+  }
+
+  .solt-layout-container {
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+
+  .slot-setbet-box {
+    max-width: 530px;
+  }
+
+  .chatbox {
+    max-width: 100% !important;
+    margin: 18px 18px 0px 0px;
+    justify-content: flex-start !important;
+  }
+
+  .slot-setbet-box-inner-box {
+    padding: 0 19px 0 30px;
+  }
+
+  .mx-100 {
+    max-width: 100% !important;
+  }
+
+  .innerBox {
+    background: #161f2c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    max-width: 240px;
+  }
+}
+
+@media only screen and (max-width:680px) {
+  .RocketGameConatiner {
+    flex-wrap: wrap;
+
+  }
+
+  .slot-setbet-box {
+    max-width: 340px;
+    padding: 5px;
+  }
+
+  .slot-setbet-box-inner-box {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .slot-reels {
+    height: 230px;
+    max-width: 228px;
+    padding: 15px;
+  }
+
+  .slot-reel {
+    width: 40.59px;
+    height: 202.6px;
+  }
+
+  .reel-img{
+    width: 35px;
+    height: 40px;
+  }
+
+  .slot-reel-bg {
+    padding: 0px 20px;
+  }
+
+  .slot-line {
+    background-color: #3eb13b;
+    width: 1px;
+    height: 50px;
+  }
+
+  .slot-bet-input {
+    font-size: 18px;
+  }
+
+  .slot-line-2 {
+    background-color: #fdbe1b;
+    width: 1px;
+    height: 35px;
+    margin: auto 0;
+  }
+
+  .slot-img-2 {
+    width: 55px;
+  }
+
+  .slot-setbet-box>div:first-child {
+    padding: 5px;
+  }
+
+  .slot-line-bet {
+    font-size: 15px;
+  }
+
+  .gameBox1 {
+    width: 100%;
+  }
+
+  .innerBox {
+    background: #161f2c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
+/* =================================================chat-box================================================== */
+
+.chatbox {
+  display: flex;
+  max-width: 228px;
+  flex-direction: column;
+  font-size: 10px;
+  color: #fff;
+  height: 692px;
+  justify-content: end;
+  width: 100%;
+  /* margin: auto; */
+}
+
+.chatbox-message-container {
+  border-radius: 10px;
+  background-color: #161f2c;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 9px 20px 9px 10px;
+  margin-bottom: 5px;
+}
+
+.chatbox-sender {
+  font-family: FS Elliot Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.chatbox-content {
+  font-family: FS Elliot Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.chatbox-input-message {
+  font-family: FS Elliot Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  border-radius: 10px;
+  border-color: rgba(62, 177, 59, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #0d131c;
+  margin-top: 8px;
+  font-weight: 400;
+  justify-content: center;
+  padding: 9px 10px;
+  color: #fff;
+  width: 100%;
+}
+
+.chatbox-send-button {
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #3eb13b;
+  margin-top: 13px;
+  width: 100%;
+  white-space: nowrap;
+  padding: 4px 10px;
+  font: 700 20px FS Elliot Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

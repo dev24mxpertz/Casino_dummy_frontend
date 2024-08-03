@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* .Rouletta_Chip_Div {
+  width: 50px;
+  height: 50px;
+  border: 5px orange dashed;
+  border-radius: 50%;
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.Rouletta_Chip_Div span {
+  position: relative;
+  z-index: 1;
+} */
+
+.bet {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border: 5px orange dashed;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.React_Rouleta_div {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  background-image: url(../../../Assets/Rouleta/6aea8cc7334177a962cfbbd3dbd10b20.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.React_Rouleta_display {
+  width: 98%;
+  height: 80vh;
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------- Rouleta_Game_main_div */
+
+/* .Rouleta_Game_main_div {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid;
+  border-image-source: linear-gradient(180deg, #ffbd18 0%, #3eb13c 100%);
+} */
+
+.Rouleta_Game_main_div {
+  background: linear-gradient(
+    241.64deg,
+    rgba(22, 31, 44, 0.9) 0%,
+    rgba(22, 31, 44, 0.7) 99.11%
+  );
+  width: 77%;
+  height: 100%;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.Rouleta_Game_main_div::before {
+  background: linear-gradient(180deg, #fdbe1b 0%, #fdbe1b 100%);
+  border-radius: 20px;
+  content: "";
+  inset: 0;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  padding: 5px;
+  pointer-events: none;
+  position: absolute;
+}
+
+.Rouleta_Game_Game_div {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+  background: linear-gradient(
+    180deg,
+    rgba(62, 177, 59, 0.9) 0%,
+    #275e33 49.01%,
+    #204430 68.49%,
+    #161f2c 100%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.Rouleta_Game_Board_div {
+  width: 30%;
+  height: 95%;
+  /* background-color: black; */
+  border-radius: 10px;
+}
+
+.Rouleta_Game_DashBoard {
+  width: 70%;
+  height: 95%;
+  /* background-color: blue; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Rouleta_Game_1stBoard_div {
+  width: 100%;
+  height: 10%;
+  /* background-color: yellowgreen; */
+  flex-wrap: wrap;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rouleta_Game_1stBoard_box {
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #204430;
+  margin-right: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.Rouleta_Game_1st2ndBoard_box {
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #204430;
+}
+
+.Rouleta_Game_2ndBoard_div {
+  width: 100%;
+  height: 55%;
+  border-radius: 10px;
+  border: 1px solid black;
+  /* background-color: #204430; */
+  padding: 3px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Rouleta_Game_2ndBoard_div_First {
+  width: 9%;
+  height: 100%;
+  /* background-color: aqua; */
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.Rouleta_Game_2ndBoard_div_First_box {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #204430;
+}
+
+.Rouleta_Game_2ndBoard_div_Second {
+  width: 80%;
+  height: 100%;
+  /* background-color: yellowgreen; */
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Rouleta_Game_2ndBoard_div_Second_row1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  padding: 5px;
+  /* background-color: red; */
+}
+
+.Rouleta_Game_2ndBoard_div_Second_row1_box {
+  width: 8%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.Rouleta_Game_2ndBoard_div_Second_row2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  padding: 5px;
+  /* background-color: red; */
+}
+
+.Rouleta_Game_2ndBoard_div_Second_row3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  padding: 5px;
+  /* background-color: red; */
+}
+
+.Rouleta_Game_3rdBoard_div {
+  width: 100%;
+  height: 12%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.Rouleta_Game_3rdBoard_div_box {
+  width: 26%;
+  height: 100%;
+  background-color: #161f2c;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.Rouleta_Game_4thBoard_div {
+  width: 100%;
+  height: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  padding: 2px;
+}
+
+.Rouleta_Game_4thBoard_div_box {
+  width: 19%;
+  margin: 2px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #161f2c;
+}
+
+.Rouleta_Game_5thBoard_div_box {
+  width: 77%;
+  height: 11%;
+  border-radius: 10px;
+  background-color: #161f2c;
+}
+
+.input_box_div {
+  width: 100%;
+  margin-top: 20px;
+  /* background-color: red; */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input_box_div_input {
+  padding: 20px 8px;
+  border: none;
+  outline: 1px solid white;
+  background-color: #204430;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  width: 45%;
+}
+
+.input_box_div_input::placeholder {
+  color: grey; /* Change this color to whatever you need */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.Coin_box_div {
+  width: 100%;
+  /* height: 10vh; */
+  /* background-color: red; */
+  border: 1px solid white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Total_Amount_Userhave_style {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------  RouletaChat_main_div  */
+
+.Rouleta_Chat_main_div {
+  width: 22%;
+  /* height: 100%; */
+  /* background-color: purple; */
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Rouleta_Chat_Para_div {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #161f2c;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.Rouleta_Chat_Para_div > h4 {
+  font-size: 18px;
+}
+
+.Rouleta_Chat_Para_div > p {
+  font-size: 14px;
+}
+.textarea_chat {
+  width: 100%;
+  padding: 20px 20px;
+  margin-top: 10px;
+  border: 2px solid #275e33;
+  border-radius: 10px;
+  background-color: #161f2c;
+  color: white;
+  outline: none;
+}
+
+.textarea_chat::placeholder {
+  color: white; /* Change this color to whatever you need */
+}
+
+.textarea_chat_button {
+  width: 100%;
+  border-radius: 10px;
+  background: #3eb13b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  .React_Rouleta_div {
+    height: initial;
+  }
+  .React_Rouleta_display {
+    height: initial;
+    flex-direction: column;
+  }
+  .Rouleta_Game_main_div{
+    width: 100%;
+  }
+  .Rouleta_Game_Game_div {
+    width: 100%;
+    flex-direction: column;
+  }
+  .Rouleta_Game_Board_div{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Rouleta_Game_DashBoard{
+    width: 100%;
+  }
+  .Rouleta_Chat_main_div{
+    width: 100%;
+  }
+}

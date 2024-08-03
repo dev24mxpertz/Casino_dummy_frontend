@@ -1,0 +1,126 @@
+/* ------------------------login------------------- */
+.btn-group-model {
+    display: flex;
+    padding: 5px;
+    background-color: #0D131C;
+    width: 100%;
+    border-radius: 15px;
+    height: 65px;
+    max-width: 517px;
+}
+
+.modal-tab {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.country-select h5 {
+    color: white;
+    font-size: 16px;
+}
+
+.login-age-checkbox{
+    font-weight: 300 !important;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.login-form-forgot{
+    font-weight: 400 !important;
+    font-size: 16px;
+}
+/* ------------------------signup------------------- */
+.signup {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.custom-modal {
+    background-image: url('../Assets/Image/Card.png');
+    width: 100% !important;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+}
+
+.custom-modal .ant-modal-content {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.ant-modal-mask {
+    background-color: transparent !important;
+}
+
+.signup-left {
+    border-right: 1px solid #6efe7d;
+}
+
+.icon-social .col {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.signup-right {
+    width: 100%;
+    padding-left: 25px;
+}
+
+.login-form{
+    margin-top: 15px;
+}
+
+.login-form .ant-input-outlined {
+    height: 55px;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.login-form .ant-input-password {
+    background: transparent !important;
+    color: white;
+    font-size: 16px;
+    font-weight: 400 !important;
+}
+
+.login-form .ant-input-outlined {
+    background: transparent !important;
+    color: white;
+    font-size: 16px;
+}
+
+.login-form .ant-input{
+    font-size: 16px !important;
+    font-weight: 300 !important;
+}
+
+.ant-input::placeholder {
+    color: #fff;
+}
+
+.anticon-eye-invisible {
+    color: white !important;
+}
+
+.ant-form>div {
+    margin-bottom: 15px;
+}
+
+.ant-modal-wrap {
+    margin: 10px;
+}
+
+@media screen and (max-width: 575px){
+    .signup-right{
+        padding: 0;
+    }
+}

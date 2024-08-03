@@ -1,0 +1,358 @@
+#poolBox1 {
+  background: linear-gradient(109.54deg, #2283F6 -2.33%, #0D131C 102.39%);
+  position: relative;
+  padding: 0 !important;
+}
+
+.top-section {
+  padding: 2rem;
+}
+.font16 {
+  font-size: 16px;
+  font-weight: 400!important;
+}
+
+.stkPool {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2%;
+}
+
+.font32 {
+  font-size: 32px;
+}
+
+.font14 {
+  font-size: 14px;
+  font-weight: 400!important;
+}
+
+.font24 {
+  font-size: 24px;
+}
+
+li.Listr_itenm {
+  display: flex;
+  align-items: center;
+  gap: 2%
+}
+
+.poolTyp {
+  display: flex;
+  align-items: center;
+  gap: 7%;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.listPool {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.coinBagImg {
+  width: 50%;
+  right: -18px;
+  position: absolute;
+  bottom: -33px;
+}
+
+div#earnUp {
+  position: relative;
+}
+
+.coinBoxImg {
+  position: absolute;
+  top: -138px;
+  width: 80%;
+}
+
+.bgf-hd {
+  padding-top: 52%;
+  text-align: center;
+}
+
+.font20 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.signUpBFG {
+  background: rgba(251, 43, 82, 1);
+  width: 100%;
+  font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 8px 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.chatMainBox {
+  display: flex;
+  background-color: #0D131C;
+  border: 1px solid #FDBE1B;
+  border-radius: 15px;
+
+}
+.box-divider{
+  width: 100%;
+  height: 1px;
+  font-size: 12px;
+  line-height: 10px;
+  background: #000;
+}
+
+/* / chart css...................................... / */
+#chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+.toolbar {
+  display: none;
+
+}
+
+
+.toolbar button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #020406;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toolbar button:hover {
+  background-color: #1a1a1b;
+}
+
+.toolbar button.active {
+  background-color: #0056b3;
+}
+
+#chart-timeline {
+  width: 100%;
+  max-width: 2000px !important;
+}
+
+.apexcharts-toolbar {
+  display: none;
+}
+
+.apexcharts-toolbar {
+  display: none;
+}
+
+.apexcharts-element-hidden.apexcharts-selected {
+  display: none;
+}
+
+.apexcharts-menu-icon,
+.apexcharts-reset-icon,
+.apexcharts-zoom-icon {
+  transform: scale(.85);
+  display: none;
+}
+.participants {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.pool-top.row {
+  padding: 1.8rem 0 0 0;
+}
+
+/* / /////////////////////////////////////////////////////////// / */
+
+.currentValue {
+  width: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, #0D131C 0%, rgba(44, 43, 37, 0.872317) 100%);
+  border-radius: 15px 0 0 15px;
+
+}
+
+div#days {
+  width: 100%;
+}
+
+.Days-sectn {
+
+  width: 5.2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+}
+
+.chart-sctn {
+  width: 78%;
+}
+.listPool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.listr_itenm {
+  width: calc(20% - 10px); 
+  margin-bottom: 20px;
+}
+
+.listPool > .Listr_itenm:nth-child(5n+1) {
+  clear: left;
+}
+img.queMarkIcon {
+  width: 16px;
+}
+
+
+.tableDate {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 3rem;
+}
+.tableDistrbut {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 3rem 0 0;
+}
+.viewItem{
+  padding: 2rem;
+
+}
+
+
+@media (max-width: 1000px) {
+  .coinBoxImg {
+    top: -84px
+  }
+  .font32{
+    font-size: 24px;
+  }
+  .font16 {
+    font-size: 14px;
+}
+.font14 {
+  font-size: 12px;
+}
+img.queMarkIcon {
+  width: 12px;
+}
+.btn-bg {
+  font-size: 15px !important;
+}
+}
+
+@media (max-width: 768px) {
+  .rfrlNavBarTop{
+    display: none;
+  }
+  .viewItem{
+    padding: 1rem;
+  
+  }
+  .listPool {
+    
+    padding: 0 0 0 1rem;
+}
+  .pool-top.row {
+    padding: 1.8rem 0.5rem 0 0.5rem;
+}
+.font24 {
+  font-size: 16px;
+}
+  #jusfy {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .coinBagImg {
+    display: none;
+  }
+
+  .coinBoxImg {
+    top: -118px;
+
+  }
+
+  div#BFG_main_box {
+    gap: 7rem;
+  }
+
+  .chatMainBox {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .currentValue {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    align-items: baseline;
+    padding: 1rem;
+  }
+
+  .chart-sctn {
+    width: 100%;
+  }
+
+  .Days-sectn {
+    width: 14%;
+    position: absolute;
+    bottom: 23px;
+    right: 0;
+    margin: 1rem;
+  }
+  .font32{
+    font-size: 24px;
+  }
+  p.font20.chng {
+    font-size: 16px;
+}
+.bfg-hd{
+  font-size: 24px !important;
+}
+.top-section {
+  padding: 1rem;
+}
+}
+
+
+
+
+@media (max-width: 480px) {
+  .coinBoxImg {
+    top: -88px;
+    right: 27px;
+  }
+  p.font20.chng {
+    font-size: 12px;
+}
+.Days-sectn {
+  width: 20%;
+  position: absolute;
+  bottom: 23px;
+  right: 0;
+  margin: 1rem;
+}
+}

@@ -1,0 +1,786 @@
+.bg-rfrl {
+    background-color: #0D131C;
+    padding: 1rem;
+}
+
+.main-div {
+    padding: 2rem;
+
+}
+
+.hd {
+    color: rgba(255, 255, 255, 1);
+    padding: 0 0 0 2rem;
+
+}
+
+.referral-campaign {
+    border-radius: 15px;
+    background: rgba(22, 31, 44, 1);
+    padding: 2rem;
+}
+
+.profit-box {
+    background: linear-gradient(180deg, #2283F6 0%, #0D131C 100%);
+    border-radius: 20px;
+
+}
+
+.invite-box {
+    background: linear-gradient(180deg, #161F2C 0%, #E0A91B 0.01%, #0D131C 100%);
+    border-radius: 20px;
+    padding: 1rem;
+    position: relative;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.rfrlFont {
+
+    font-weight: 400 !important;
+}
+
+.moneyIcon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+justify-content: center;
+
+   position: relative; 
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.moneyIcon::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 13%;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(90deg, rgba(62, 177, 59, 0) 37.59%, #3EB13B 62.41%, rgba(62, 177, 59, 0) 88.67%);
+}
+
+.sound-img {
+    position: absolute;
+    top: -46px;
+    right: -54px;
+}
+
+
+.custom-boader {
+    border: 1px solid rgba(251, 43, 82, 1);
+    border-radius: 10px;
+}
+
+.para {
+    font-size: 24px;
+}
+
+
+.divider {
+    border-right: 1px solid rgba(62, 177, 59, 1);
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+
+.share-btn {
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 88%;
+    color: #F3F3F3;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color:
+        rgba(29, 40, 55, 1);
+    width: 100%;
+    max-width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+
+}
+
+.Green-btn {
+
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 88%;
+    color: #F3F3F3;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: #3EB13B;
+    width: 100%;
+    /* max-width: 249px; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+
+}
+
+.btn-width {
+    max-width: 249px;
+}
+
+.blnc-cd {
+    background: linear-gradient(180deg, #0D131C 0%, #161F2C 49%, #0D131C 100%);
+    border-radius: 20px;
+    border: 0.5px solid rgba(133, 139, 171, 1);
+    width: 25%;
+
+}
+
+.bder-btm {
+    border-bottom: 1px solid linear-gradient(90deg, rgba(62, 177, 59, 0) 37.59%, #3EB13B 62.41%, rgba(62, 177, 59, 0) 88.67%);
+    ;
+}
+
+.balance {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bln-box-hd {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profit-box {
+    background: linear-gradient(180deg, #2283F6 0%, #0D131C 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.rfrl-box {
+
+    background-color: rgba(22, 31, 44, 1);
+    margin: 3rem 0;
+    border-radius: 15px;
+}
+
+.rfrl-data {
+
+    width: 100%;
+    border-radius: 15px;
+    padding: 1rem;
+
+}
+
+.box-1 {
+    padding: 2rem;
+
+}
+
+p.campaigns {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #1D2837;
+
+    color: rgba(255, 255, 255, 1);
+    /* background: rgba(29, 40, 55, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+
+
+}
+
+.histbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.doller-coin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.side-box {
+    width: 13%;
+    background: rgba(133, 139, 171, 0.2);
+    border-radius: 10px;
+    padding: 0;
+}
+
+.btn-bg {
+    background-color: rgba(13, 19, 28, 1);
+    color: #F3F3F3;
+    border: none;
+    width: 70%;
+    border-radius: 4px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 8px 16px;
+  
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.history-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.side-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profit-data {
+    width: 100%;
+    border-radius: 15px;
+    padding: 1rem;
+    background: linear-gradient(154.74deg, #3EB13B -50.28%, rgba(62, 177, 59, 0) 98.71%);
+
+
+}
+
+
+
+.hstry-main {
+    margin: 2rem 0;
+
+    display: flex;
+
+    justify-content: center;
+    gap: 5%;
+}
+
+.rewards-history {
+    width: 53%;
+    background: linear-gradient(180deg, #011D45 0%, #172232 100%);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.live-rewards {
+    width: 42%;
+    background: linear-gradient(154.74deg, #3EB13B -50.28%, rgba(62, 177, 59, 0) 98.71%);
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+
+img.img {
+    width: 100%;
+}
+
+.doller-img {
+    width: 50%;
+    height: 100%;
+    padding-bottom: 2rem
+}
+
+.view-btn {
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 88%;
+    color: #F3F3F3;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color:
+        rgba(29, 40, 55, 1);
+    width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+
+}
+
+ul.userList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+
+.total-reward {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 31, 44, 0.35);
+    border-radius: 10px;
+    padding: 1rem 0;
+}
+
+.offer-box {
+    margin: 2rem 0;
+    border-radius: 10px;
+
+}
+
+.offer-box1 {
+    background: rgba(22, 31, 44, 1);
+    border-radius:
+        30px 0px 0px 30px;
+}
+
+.offer-box2 {
+    height: 100%;
+    background: linear-gradient(96.63deg, #FB2B52 -8.13%, #2283F6 110.19%);
+    gap: 1rem;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.offer-para {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.32px;
+}
+
+.offer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.prtnr-btn {
+    background: rgba(251, 43, 82, 1);
+    margin: 5px;
+    padding: 8px 16px;
+  
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.wallet-img {
+    padding-right: 1rem;
+}
+
+.font36 {
+    font-size: 36px;
+}
+
+.rfrl-nav {
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid rgba(29, 40, 55, 1);
+    padding: 0.2rem;
+}
+
+.nav-btn {
+    background-color: #0D131C;
+    border: none;
+    color: #F3F3F3;
+    font-size: 1.5rem;
+    height: 100%;
+
+
+}
+
+.nav-btn.active {
+    background-color: #161F2C !important;
+    color: #fff !important;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 2rem;
+}
+
+.lnk {
+    font-size: 15px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.displyicon {
+    display: none;
+}
+
+.share-box {
+    display: flex;
+    align-items: center;
+}
+
+.offerpercnt {
+    font-size: 64px;
+
+}
+
+.link-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+p.text-white.top-hd {
+    font-size: 20px !important;
+}
+
+h6.text-white.para.invite {
+    margin: 0 0 1rem 0;
+}
+
+p.text-white.para.fontInvite {
+    font-size: 20px;
+    font-weight: 400 !important;
+}
+
+.withCal {
+    max-width: calc(100% - 0px);
+}
+
+#button-addon2 {
+    padding: 0 5px 0 0;
+}
+
+button#infinityFont {
+    font-size: 29px;
+}
+
+
+.rfrlNavBarTop {
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    padding: 0;
+}
+/* button css */
+button.CommonBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    max-width: 44px;
+    height: 40px;
+    background-color: #0D131C !important;
+}
+
+.calc>div:last-child>button{
+    background-color: #FDBE1B !important;
+}
+img.uperPic {
+    width: 35px;
+}
+
+
+/* }/////////////////////////// */
+@media (max-width: 1192px) {
+    .hide-text {
+        display: none;
+    }
+
+    .withCal {
+        max-width: calc(100% - 0px);
+    }
+}
+
+@media (max-width: 768px) {
+    .NavTextCommon{
+        display: none;
+    }
+    .main-nav {
+
+        padding: 0;
+    }
+
+    .profit-box {
+        padding: 1rem 0;
+    }
+
+    .btn-bg {
+        font-size: 14px;
+    }
+
+    button#infinityFont {
+        font-size: 23px !important;
+    }
+
+    .withCal {
+        max-width: calc(100% - 0px);
+    }
+
+    .divider {
+        border-bottom: 1px solid rgba(62, 177, 59, 1);
+        border-right: 0;
+        padding-right: 0rem;
+        margin-right: 0rem;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem
+    }
+
+    .balance {
+        flex-direction: column;
+        gap: 2rem;
+
+        align-items: center;
+    }
+
+    .font36 {
+        font-size: 24px;
+    }
+
+    .box-gap {
+        gap: 2rem
+    }
+
+    .blnc-cd {
+
+        width: 90%;
+    }
+
+    .para {
+        font-size: 18px;
+    }
+
+
+
+    .hstry-main {
+        flex-direction: column;
+
+    }
+
+    .rewards-history {
+        width: 100%;
+        padding: 1rem;
+
+    }
+
+    .live-rewards {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .offer-box1 {
+
+        border-radius:
+            30px 30px 0px 0px
+    }
+
+    .offer-box2 {
+
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .offer-btn {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .hide-text {
+        display: none;
+    }
+
+    .hstry-main {
+        flex-direction: column;
+        gap: 2rem
+    }
+
+    .main-div {
+        padding: 1rem;
+    }
+
+    .nav-btn {
+
+        font-size: 1rem;
+    }
+
+    .main-nav {
+        justify-content: center;
+    }
+
+    .share-box {
+
+        flex-direction: column;
+    }
+
+    .offerpercnt {
+        font-size: 50px;
+
+    }
+
+    .sound-img {
+        width: 132px;
+    }
+
+    p.text-white.para.fontInvite {
+        font-size: 16px;
+        font-weight: 400 !important;
+    }
+
+    #button-addon2 {
+        width: 61%;
+    }
+
+    .copy-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .side-box {
+        width: 19%;
+    }
+
+    .para {
+        font-size: 16px;
+    }
+
+    .doller-coin {
+        width: 80%;
+    }
+
+
+    .withCal {
+        max-width: calc(100% - 0px);
+    }
+
+    .profit-box {
+        flex-direction: column;
+
+        padding: 0;
+    }
+
+    .balance {
+        flex-direction: column;
+        gap: 2rem;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+
+    .box-gap {
+        gap: 5rem
+    }
+
+
+
+    .referral-campaign {
+        padding: 1rem;
+    }
+
+    .main-div {
+        padding: 1rem;
+    }
+
+    .nav-btn {
+
+        font-size: 0.8rem;
+    }
+
+    .main-nav {
+
+        justify-content: center;
+    }
+
+    .bln-box-hd {
+        flex-direction: column-reverse;
+    }
+
+    p.campaigns {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .sound-img {
+        position: absolute;
+        top: -76px;
+        right: 74px;
+    }
+
+    h6.text-white.para.invite {
+        padding: 2rem 0rem 1rem !important;
+        text-align: center !important;
+        font-size: 20px !important;
+    }
+
+    p.text-white.top-hd {
+        font-size: 20px !important;
+    }
+
+    .lnk {
+        font-size: 11px;
+
+    }
+
+    .displytxt {
+        display: none;
+    }
+
+    .displyicon {
+        display: block;
+        width: 20%;
+    }
+
+    .share-box {
+        flex-direction: row;
+    }
+
+    img.uperPic {
+        width: 20px;
+    }
+    .ul.userList {
+        font-size: 10px;
+    }
+
+    .offerpercnt {
+        font-size: 30px;
+
+    }
+    .ft-size{
+        font-size: 14px;
+    }
+}

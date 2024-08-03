@@ -1,0 +1,20 @@
+.Userdetails_main{
+    /* background-color: yellow; */
+    overflow-x:hidden;
+    overflow-y: auto;
+    width: 100% !important;
+    height: 70vh;
+    scrollbar-width: none;
+}
+
+.a-left td{
+    text-align:left ;
+}
+
+.a-left{
+    padding: 20px;
+}
+
+.a-left tr{
+    background-color: transparent !important;
+}

@@ -1,0 +1,399 @@
+/* ------------------------------------Account-s1------------------------------------------ */
+
+.account-card-blue-left {
+    background: linear-gradient(180deg, #2283F6 0%, #1A4375 50.5%, #1A4272 65.5%, #161F2C 100%);
+    width: 100%;
+    max-width: 560px;
+    height: 228px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.account-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    margin: 0;
+    gap: 15px;
+}
+
+.black-bg {
+    background-color: #0D131C;
+}
+
+.account-card-blue-left h1 {
+    font-size: 32px;
+}
+
+.account-card-blue-left p {
+    font-size: 24px;
+}
+
+.account-card-blue-left button span {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.account-card-blue-left button {
+    margin: 0;
+    padding: 0;
+}
+
+.account-s1-right {
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.account-card-blue-right {
+    background: linear-gradient(180deg, #2283F6 0%, #1A4375 50.5%, #1A4272 65.5%, #161F2C 100%);
+    width: 100%;
+    max-width: 560px;
+    height: 228px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.account-card-blue-right h1 {
+    font-size: 30px;
+}
+
+.account-card-blue-right span {
+    font-size: 80px;
+    color: #FB2B52;
+}
+
+@media screen and (max-width: 950px) {
+    .account-card-blue-right h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .account-card-blue-right span {
+        font-size: 60px;
+    }
+
+    .account-s1-right {
+        margin-left: -20px;
+        margin-top: 45px;
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .account-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .account-card-blue-left {
+        background: linear-gradient(180deg, #2283F6 0%, #1A4375 50.5%, #1A4272 65.5%, #161F2C 100%);
+        width: 100%;
+        max-width: 330px;
+        height: 182px;
+        border-radius: 25px;
+        padding: 15px;
+    }
+
+    .account-card-blue-right {
+        background: linear-gradient(180deg, #2283F6 0%, #1A4375 50.5%, #1A4272 65.5%, #161F2C 100%);
+        width: 100%;
+        max-width: 330px;
+        height: 130px;
+        border-radius: 25px;
+        padding: 15px;
+    }
+
+    .account-s1-right {
+        margin-left: -20px;
+        margin-top: -10px;
+        width: 100%;
+        max-width: 158px;
+    }
+
+    .account-card-blue-right span {
+        font-size: 40px;
+    }
+
+    .account-container {
+        padding: 50px 5px;
+    }
+}
+
+/* ------------------------------------Account-s2------------------------------------------ */
+
+.account-s2-content {
+    /* background: linear-gradient(180deg, #0D131C 0%, #a4aad12f 100%); */
+    background: linear-gradient(to bottom, #0D131C, #a4aad12f, #0D131C);
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.account-s2 {
+    padding: 48px;
+    background-color: #0D131C;
+}
+
+.account-s2-card {
+    width: 100%;
+    max-width: 355px;
+    height: 264px;
+    border-radius: 20px;
+    background-color: #161F2C;
+    margin-bottom: 30px;
+    box-shadow: 0.30740416049957275px -8.14234733581543px 6.518518447875977px 0px #00000007;
+    box-shadow: 1.4531834125518799px -38.49109649658203px 25.481481552124023px 0px #0000000B;
+    box-shadow: 3.7726876735687256px -99.9288101196289px 80px 0px #00000012;
+}
+
+.account-s2-card-1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    padding: 15px 5px;
+}
+
+.account-s2-card-1>div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card1-mail {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card1-mail>p {
+    font-size: 20px;
+}
+
+.card1-mail>img {
+    width: 100%;
+    max-width: 24px;
+    height: 24px;
+}
+
+.card1-verify {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card1-verify>img {
+    width: 100%;
+    max-width: 24px;
+    height: 24px;
+}
+
+.card1-verify>p {
+    color: #3EB13B;
+    font-size: 20px;
+}
+
+.card-content {
+    font-size: 16px;
+    color: #858BAB;
+}
+
+.card1-checkbox {
+    font-size: 16px;
+    color: white;
+}
+
+.card1-input {
+    color: white;
+    background-color: #0D131C;
+    border: 1px solid #FB2B52;
+    height: 55px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 790px) {
+    .account-s2-content {
+        background: none;
+    }
+
+    .account-s2-content>div>div {
+        justify-content: center !important;
+    }
+
+    .account-s2 {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card1-verify>p {
+        font-size: 15px;
+    }
+}
+
+/* ------------------------------------Account-s3------------------------------------------ */
+.account-s3 {
+    width: 100%;
+    max-width: 775px;
+    height: 449px;
+    border-radius: 20px;
+    background-color: #161F2C;
+    padding: 20px;
+}
+
+.account-s3-right {
+    width: 100%;
+    max-width: 371px;
+    height: 449px;
+    border-radius: 20px;
+    background-color: #161F2C;
+    padding: 15px 0px;
+    margin-left: 15px;
+}
+
+.account-s3-inner-card {
+    width: 100%;
+    max-width: 225px;
+    height: 101px;
+    background-color: #0D131C;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+}
+
+.account-s3-inner-card h5 {
+    font-size: 20px;
+    color: #858BAB;
+}
+
+.account-s3-inner-card p {
+    margin-top: 1px;
+}
+
+.account-s3-inner-heading>p {
+    font-size: 24px;
+}
+
+.account-s3-heading>h1 {
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+.account-s3-rc {
+    background-color: #0D131C;
+    width: 162.23px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-s3-rc>button {
+    max-width: 136px;
+    height: 30px;
+}
+
+.account-s3-right-heading>p {
+    font-size: 24px;
+}
+
+.account-s3-right-heading>img {
+    width: 26px;
+    height: 15px;
+}
+
+.account-s3-right-heading {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.account-s3-right-card {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .a-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .account-s3-right {
+        max-width: 100%;
+        margin-left: 0;
+        display: flex;
+    }
+
+    .account-s3-right>div:first-child {
+        padding: 20px;
+    }
+
+    .account-s3-right-heading {
+        justify-content: space-between;
+    }
+
+    .account-s3 {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .account-s2 {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .account-s3 {
+        background-color: transparent;
+        height: auto;
+    }
+
+    .flex-column-on-mobile {
+        flex-direction: column !important;
+    }
+
+    .account-s3-inner-card{
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        background-color: #161F2C;
+        margin-left: 0;
+    }
+    .b-box-center{
+        align-items: center;
+    }
+    .account-s2-content {
+        padding-bottom: 0;
+    }
+    .account-s3-right-card{
+        flex-direction: column;
+    }
+    .account-s3-right{
+        max-width: 90%;
+        margin: 20px;
+    }
+    .account-s3-right-heading>p {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,174 @@
+.profile-modal {
+    width: 100%;
+    max-width: 520px;
+    height: 592px;
+}
+
+.profile-modal-upper {
+    width: 100%;
+    max-width: 520px;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #161F2C 0%, #2283F6 100%);
+    height: 253px;
+    padding: 15px 30px;
+}
+
+.profile-modal-lower {
+    color: white;
+    padding: 20px 25px;
+    overflow-y: scroll;
+    height: 321px;
+}
+
+.profile-modal-lower::-webkit-scrollbar {
+    width: 13px;
+}
+
+.profile-modal-lower::-webkit-scrollbar-track {
+    background-color: #161F2C;
+}
+
+.profile-modal-lower::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+.profile-modal-body .ant-modal-content {
+    background: linear-gradient(180deg, #0D131C 0%, #0D131C 100%);
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+}
+
+.profile-modal-body .ant-modal-close-icon svg {
+    width: 30px;
+    height: 30px;
+    color: #3EB13B;
+}
+
+.data-user {
+    font-size: 24px;
+    color: white;
+}
+
+.profile-modal-upper h1 {
+    font-size: 32px;
+    color: white;
+    margin-top: 10px;
+}
+
+.user-contain-box {
+    background: black;
+    border-radius: 70px 10px 10px 70px;
+    width: 342px;
+    height: 121px;
+}
+
+.user-statistics-card {
+    width: 125px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #161F2C;
+    justify-content: center;
+    text-align: center;
+}
+
+.user-statistics-card h5 {
+    font-size: 14px;
+    color: #858BAB;
+}
+
+.user-statistics-card p {
+    font-size: 14px;
+    color: #858BAB;
+}
+
+.user-statistics-card img {
+    width: 24px;
+    height: 24px;
+}
+
+.user-game-card {
+    width: 161px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #161F2C;
+    justify-content: center;
+    text-align: center;
+}
+
+.user-game-card-heading {
+    width: 305px;
+    height: 29px;
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.user-game-card-heading img {
+    width: 26px;
+    height: 25px;
+}
+
+.user-game-card-heading p {
+    font-size: 24px;
+}
+
+@media (max-width: 501px) {
+    .profile-modal {
+        width: 100%;
+        max-width: 500px;
+        height: 560px;
+    }
+
+    .profile-modal-body .ant-modal-content {
+        margin: 15px;
+    }
+
+    .profile-modal-lower {
+        height: 300px;
+    }
+
+    .user-statistics-card {
+        margin: 0px 5px;
+        width: 100%;
+    }
+
+    .mobile-modal-user {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .user-game-card-heading p {
+        font-size: 18px;
+    }
+
+    .mobile-card-heading p {
+        font-size: 18px !important;
+    }
+
+    .user-contain-box {
+        width: 255px;
+    }
+
+    .user-game-card {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 420px) {
+    .data-user {
+        font-size: 18px;
+        color: white;
+    }
+
+    .user-game-card-heading {
+        width: 230px;
+    }
+}

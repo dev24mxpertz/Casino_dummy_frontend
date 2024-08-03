@@ -1,0 +1,53 @@
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.wallet-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.walletProfile{
+    display: none;
+}
+.hide-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.anticon {
+    color: #fff;
+}
+.navbar-toggler{
+    border: none;
+}
+
+@media screen and (max-width: 500px){
+   
+    .walletProfile {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 10px;
+        padding-right: 4px;
+    }
+    /* .walletProfile {
+        display: none;
+    } */
+    .hide-profile {
+        display: none;
+    }
+    span.navbar-rolling.navbar-brand {
+        display: none;
+    }
+    .profile-modal-upper{
+        padding: 15px 15px !important;
+    }
+    
+}
