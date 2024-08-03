@@ -10,7 +10,7 @@ function Chatbox() {
     const user = useSelector((state) => state.auth.user);
     console.log(user)
     useEffect(() => {
-        ws.current = new WebSocket('ws://casino-backend-01ek.onrender.com');
+        ws.current = new WebSocket('wss://casino-backend-01ek.onrender.com');
 
         ws.current.onopen = () => {
             console.log('WebSocket connection established');
